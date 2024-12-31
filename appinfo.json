@@ -1,0 +1,28 @@
+{
+	"id": "com.webos.app.notificationcenter",
+	"version": "1.0.0",
+	"vendor": "LGE",
+	"type": "web",
+	"main": "index.html",
+	"title": "Notifications",
+	"sysAssetsBasePath": "assets",
+	"icon": "icon_notification.png",
+	"largeIcon": "icon_notification.png",
+	"imageForRecents": "notificationcenter_recent.png",
+	"transparent": true,
+	"visible": false,
+	"uiRevision": 2,
+	"class": {
+		"hidden": false
+	},
+	"lockable": false,
+	"trustLevel": "trusted",
+	"useNativeScroll": true,
+	"disableBackHistoryAPI": true,
+	"voiceControl": "manual",
+	"accessibility": {
+		"supportsAudioGuidance": true
+	},
+	"usePrerendering": true,
+	"v8SnapshotFile": "snapshot_blob.bin"
+}
